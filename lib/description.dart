@@ -91,7 +91,7 @@ class _GameDetailsScreenState extends State<GameDetailsScreen> {
       _isHeartFilled = !_isHeartFilled;
     });
   }
-
+//test
   Future<void> _toggleWishGame() async {
     final userDocRef = await FirebaseFirestore.instance
         .collection('utilisateurs')
